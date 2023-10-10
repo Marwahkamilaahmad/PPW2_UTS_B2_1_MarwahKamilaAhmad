@@ -1,7 +1,4 @@
-@extends('index')
 
-@section('halo')
 <div>
-    <h1>MENAMPILKAN DATA</h1>
+    <p>contact person : Marwah Kamila Ahmad</p>
 </div>
-@show

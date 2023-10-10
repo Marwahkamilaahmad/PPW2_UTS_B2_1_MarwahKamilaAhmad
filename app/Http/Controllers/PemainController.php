@@ -14,7 +14,7 @@ class PemainController extends Controller
     public function index()
     {
         $data_pemain = Pemain::all();
-        return view('index', ['data_pemain' => $data_pemain]);
+        return view('layouts', ['data_pemain' => $data_pemain]);
     }
 
     /**
